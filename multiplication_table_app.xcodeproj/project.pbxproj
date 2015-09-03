@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2AF9361B98774B0054622D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2AF9351B98774B0054622D /* AppDelegate.swift */; };
+		FC2AF9381B98774B0054622D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2AF9371B98774B0054622D /* ViewController.swift */; };
+		FC2AF93B1B98774B0054622D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2AF9391B98774B0054622D /* Main.storyboard */; };
+		FC2AF93E1B98774B0054622D /* multiplication_table_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC2AF93C1B98774B0054622D /* multiplication_table_app.xcdatamodeld */; };
+		FC2AF9401B98774B0054622D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2AF93F1B98774B0054622D /* Assets.xcassets */; };
+		FC2AF9431B98774B0054622D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2AF9411B98774B0054622D /* LaunchScreen.storyboard */; };
+		FC2AF94E1B98774C0054622D /* multiplication_table_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2AF94D1B98774C0054622D /* multiplication_table_appTests.swift */; };
+		FC2AF9591B98774C0054622D /* multiplication_table_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2AF9581B98774C0054622D /* multiplication_table_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2AF94A1B98774C0054622D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2AF92A1B98774B0054622D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2AF9311B98774B0054622D;
+			remoteInfo = multiplication_table_app;
+		};
+		FC2AF9551B98774C0054622D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2AF92A1B98774B0054622D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2AF9311B98774B0054622D;
+			remoteInfo = multiplication_table_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2AF9321B98774B0054622D /* multiplication_table_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiplication_table_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2AF9351B98774B0054622D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2AF9371B98774B0054622D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC2AF93A1B98774B0054622D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2AF93D1B98774B0054622D /* multiplication_table_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = multiplication_table_app.xcdatamodel; sourceTree = "<group>"; };
+		FC2AF93F1B98774B0054622D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2AF9421B98774B0054622D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2AF9441B98774B0054622D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2AF9491B98774C0054622D /* multiplication_table_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multiplication_table_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2AF94D1B98774C0054622D /* multiplication_table_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiplication_table_appTests.swift; sourceTree = "<group>"; };
+		FC2AF94F1B98774C0054622D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2AF9541B98774C0054622D /* multiplication_table_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multiplication_table_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2AF9581B98774C0054622D /* multiplication_table_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiplication_table_appUITests.swift; sourceTree = "<group>"; };
+		FC2AF95A1B98774C0054622D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2AF92F1B98774B0054622D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2AF9461B98774C0054622D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2AF9511B98774C0054622D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2AF9291B98774B0054622D = {
+			isa = PBXGroup;
+			children = (
+				FC2AF9341B98774B0054622D /* multiplication_table_app */,
+				FC2AF94C1B98774C0054622D /* multiplication_table_appTests */,
+				FC2AF9571B98774C0054622D /* multiplication_table_appUITests */,
+				FC2AF9331B98774B0054622D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2AF9331B98774B0054622D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2AF9321B98774B0054622D /* multiplication_table_app.app */,
+				FC2AF9491B98774C0054622D /* multiplication_table_appTests.xctest */,
+				FC2AF9541B98774C0054622D /* multiplication_table_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2AF9341B98774B0054622D /* multiplication_table_app */ = {
+			isa = PBXGroup;
+			children = (
+				FC2AF9351B98774B0054622D /* AppDelegate.swift */,
+				FC2AF9371B98774B0054622D /* ViewController.swift */,
+				FC2AF9391B98774B0054622D /* Main.storyboard */,
+				FC2AF93F1B98774B0054622D /* Assets.xcassets */,
+				FC2AF9411B98774B0054622D /* LaunchScreen.storyboard */,
+				FC2AF9441B98774B0054622D /* Info.plist */,
+				FC2AF93C1B98774B0054622D /* multiplication_table_app.xcdatamodeld */,
+			);
+			path = multiplication_table_app;
+			sourceTree = "<group>";
+		};
+		FC2AF94C1B98774C0054622D /* multiplication_table_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2AF94D1B98774C0054622D /* multiplication_table_appTests.swift */,
+				FC2AF94F1B98774C0054622D /* Info.plist */,
+			);
+			path = multiplication_table_appTests;
+			sourceTree = "<group>";
+		};
+		FC2AF9571B98774C0054622D /* multiplication_table_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2AF9581B98774C0054622D /* multiplication_table_appUITests.swift */,
+				FC2AF95A1B98774C0054622D /* Info.plist */,
+			);
+			path = multiplication_table_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2AF9311B98774B0054622D /* multiplication_table_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2AF95D1B98774C0054622D /* Build configuration list for PBXNativeTarget "multiplication_table_app" */;
+			buildPhases = (
+				FC2AF92E1B98774B0054622D /* Sources */,
+				FC2AF92F1B98774B0054622D /* Frameworks */,
+				FC2AF9301B98774B0054622D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multiplication_table_app;
+			productName = multiplication_table_app;
+			productReference = FC2AF9321B98774B0054622D /* multiplication_table_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2AF9481B98774C0054622D /* multiplication_table_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2AF9601B98774C0054622D /* Build configuration list for PBXNativeTarget "multiplication_table_appTests" */;
+			buildPhases = (
+				FC2AF9451B98774C0054622D /* Sources */,
+				FC2AF9461B98774C0054622D /* Frameworks */,
+				FC2AF9471B98774C0054622D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2AF94B1B98774C0054622D /* PBXTargetDependency */,
+			);
+			name = multiplication_table_appTests;
+			productName = multiplication_table_appTests;
+			productReference = FC2AF9491B98774C0054622D /* multiplication_table_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC2AF9531B98774C0054622D /* multiplication_table_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2AF9631B98774C0054622D /* Build configuration list for PBXNativeTarget "multiplication_table_appUITests" */;
+			buildPhases = (
+				FC2AF9501B98774C0054622D /* Sources */,
+				FC2AF9511B98774C0054622D /* Frameworks */,
+				FC2AF9521B98774C0054622D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2AF9561B98774C0054622D /* PBXTargetDependency */,
+			);
+			name = multiplication_table_appUITests;
+			productName = multiplication_table_appUITests;
+			productReference = FC2AF9541B98774C0054622D /* multiplication_table_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2AF92A1B98774B0054622D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic 650";
+				TargetAttributes = {
+					FC2AF9311B98774B0054622D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 97529EYP6N;
+					};
+					FC2AF9481B98774C0054622D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 97529EYP6N;
+						TestTargetID = FC2AF9311B98774B0054622D;
+					};
+					FC2AF9531B98774C0054622D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 97529EYP6N;
+						TestTargetID = FC2AF9311B98774B0054622D;
+					};
+				};
+			};
+			buildConfigurationList = FC2AF92D1B98774B0054622D /* Build configuration list for PBXProject "multiplication_table_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2AF9291B98774B0054622D;
+			productRefGroup = FC2AF9331B98774B0054622D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2AF9311B98774B0054622D /* multiplication_table_app */,
+				FC2AF9481B98774C0054622D /* multiplication_table_appTests */,
+				FC2AF9531B98774C0054622D /* multiplication_table_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2AF9301B98774B0054622D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2AF9431B98774B0054622D /* LaunchScreen.storyboard in Resources */,
+				FC2AF9401B98774B0054622D /* Assets.xcassets in Resources */,
+				FC2AF93B1B98774B0054622D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2AF9471B98774C0054622D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2AF9521B98774C0054622D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2AF92E1B98774B0054622D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2AF9381B98774B0054622D /* ViewController.swift in Sources */,
+				FC2AF93E1B98774B0054622D /* multiplication_table_app.xcdatamodeld in Sources */,
+				FC2AF9361B98774B0054622D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2AF9451B98774C0054622D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2AF94E1B98774C0054622D /* multiplication_table_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2AF9501B98774C0054622D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2AF9591B98774C0054622D /* multiplication_table_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC2AF94B1B98774C0054622D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2AF9311B98774B0054622D /* multiplication_table_app */;
+			targetProxy = FC2AF94A1B98774C0054622D /* PBXContainerItemProxy */;
+		};
+		FC2AF9561B98774C0054622D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2AF9311B98774B0054622D /* multiplication_table_app */;
+			targetProxy = FC2AF9551B98774C0054622D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2AF9391B98774B0054622D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2AF93A1B98774B0054622D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2AF9411B98774B0054622D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2AF9421B98774B0054622D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2AF95B1B98774C0054622D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC2AF95C1B98774C0054622D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2AF95E1B98774C0054622D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = multiplication_table_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epic650.multiplication-table-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC2AF95F1B98774C0054622D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = multiplication_table_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epic650.multiplication-table-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC2AF9611B98774C0054622D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = multiplication_table_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epic650.multiplication-table-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multiplication_table_app.app/multiplication_table_app";
+			};
+			name = Debug;
+		};
+		FC2AF9621B98774C0054622D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = multiplication_table_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epic650.multiplication-table-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multiplication_table_app.app/multiplication_table_app";
+			};
+			name = Release;
+		};
+		FC2AF9641B98774C0054622D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = multiplication_table_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epic650.multiplication-table-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = multiplication_table_app;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC2AF9651B98774C0054622D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = multiplication_table_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epic650.multiplication-table-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = multiplication_table_app;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2AF92D1B98774B0054622D /* Build configuration list for PBXProject "multiplication_table_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2AF95B1B98774C0054622D /* Debug */,
+				FC2AF95C1B98774C0054622D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2AF95D1B98774C0054622D /* Build configuration list for PBXNativeTarget "multiplication_table_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2AF95E1B98774C0054622D /* Debug */,
+				FC2AF95F1B98774C0054622D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC2AF9601B98774C0054622D /* Build configuration list for PBXNativeTarget "multiplication_table_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2AF9611B98774C0054622D /* Debug */,
+				FC2AF9621B98774C0054622D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC2AF9631B98774C0054622D /* Build configuration list for PBXNativeTarget "multiplication_table_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2AF9641B98774C0054622D /* Debug */,
+				FC2AF9651B98774C0054622D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC2AF93C1B98774B0054622D /* multiplication_table_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC2AF93D1B98774B0054622D /* multiplication_table_app.xcdatamodel */,
+			);
+			currentVersion = FC2AF93D1B98774B0054622D /* multiplication_table_app.xcdatamodel */;
+			path = multiplication_table_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC2AF92A1B98774B0054622D /* Project object */;
+}
